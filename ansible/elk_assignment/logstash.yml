@@ -1,0 +1,6 @@
+---
+- hosts: logstash
+  become: true
+  roles:
+    - role: logstash
+      elasticsearch_ip: 3.129.88.30

@@ -1,0 +1,20 @@
+---
+- name: Install jre
+  yum:
+    name: java-1.8.0-openjdk
+    state: present
+  become: yes
+          
+- name: Install Logstash
+  yum: 
+    name: https://artifacts.elastic.co/downloads/logstash/logstash-5.5.1.rpm
+    state: present
+  become: yes
+
+
+
+- name: Starting Logstash
+  service:
+   name: logstash
+   state: started
+

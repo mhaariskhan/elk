@@ -1,0 +1,24 @@
+---
+- name: Install jre
+  yum:
+    name: java-1.8.0-openjdk
+    state: present
+  become: yes
+
+- name: Install Kibana 
+  yum:
+   name: https://artifacts.elastic.co/downloads/kibana/kibana-5.5.1-x86_64.rpm
+   state: present
+   update_cache: yes
+   
+
+- name: Starting Kibana
+  service:
+   name: kibana
+   state: started
+
+- name: set elasticsearch path
+  lineinfile:
+   destfile: /etc/kibana/kibana.yml 
+   regexp: 'elasticsearch.url:'
+   line: 'elasticsearch.url: "http://{{ elasticsearch_ip }}:9200"'

@@ -1,0 +1,50 @@
+{    
+    {
+        "message" : "[18-Aug-2016 02:28:46,537][ERROR][thread1][package.name]",
+    "@version" : "1",
+    "@timestamp" : "2016-08-17T12:31:58.209Z",
+        "path" : "/home/admin-nfv/test1_log.log",
+        "host" : "nendc1-bg-d104",
+        "date" : "18-Aug-2016",
+        "time" : "02:28:46,537",
+    "log_type" : "ERROR",
+    "thread_name" : "thread1",
+        "package" : "package.name"
+    },
+    {
+        "message" : "[18-Aug-2016 02:28:46,537][ERROR][thread1][package.name]",
+    "@version" : "1",
+    "@timestamp" : "2016-08-17T12:31:58.209Z",
+        "path" : "/home/admin-nfv/test1_log.log",
+        "host" : "nendc1-bg-d104",
+        "date" : "18-Aug-2016",
+        "time" : "02:28:46,537",
+    "log_type" : "ERROR",
+    "thread_name" : "thread1",
+        "package" : "package.name"
+    },
+    {
+        "message" : "[18-Aug-2016 02:28:46,537][ERROR][thread1][package.name]",
+    "@version" : "1",
+    "@timestamp" : "2016-08-17T12:31:58.209Z",
+        "path" : "/home/admin-nfv/test1_log.log",
+        "host" : "nendc1-bg-d104",
+        "date" : "18-Aug-2016",
+        "time" : "02:28:46,537",
+    "log_type" : "ERROR",
+    "thread_name" : "thread1",
+        "package" : "package.name"
+    },
+    {
+        "message" : "[18-Aug-2016 02:28:46,537][ERROR][thread1][package.name]",
+    "@version" : "1",
+    "@timestamp" : "2016-08-17T12:31:58.209Z",
+        "path" : "/home/admin-nfv/test1_log.log",
+        "host" : "nendc1-bg-d104",
+        "date" : "18-Aug-2016",
+        "time" : "02:28:46,537",
+    "log_type" : "ERROR",
+    "thread_name" : "thread1",
+        "package" : "package.name"
+    }
+}

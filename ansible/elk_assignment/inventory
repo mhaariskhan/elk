@@ -1,0 +1,10 @@
+[elastic-search]
+3.129.88.30
+[kibana]
+3.138.110.99
+[logstash]
+3.15.176.42
+
+[all:vars]
+ansible_connection=ssh 
+ansible_user=ec2-user
